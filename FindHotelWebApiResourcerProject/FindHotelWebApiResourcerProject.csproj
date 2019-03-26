@@ -168,6 +168,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BookingInfoesController.cs" />
     <Compile Include="Controllers\VGuestListsController.cs" />
     <Compile Include="EFClasses\Booking.cs" />
     <Compile Include="Controllers\BookingsController.cs" />
@@ -175,7 +176,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelsController.cs" />
     <Compile Include="Controllers\RoomsController.cs" />
+    <Compile Include="EFClasses\BookingInfo.cs" />
     <Compile Include="EFClasses\FindHotelContext.cs" />
+    <Compile Include="EFClasses\VBookingInfoContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

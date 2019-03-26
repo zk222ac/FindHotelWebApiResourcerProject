@@ -1,12 +1,7 @@
-using FindHotelWebApiResourcerProject.EFClasses;
+using System.Data.Entity;
 
-namespace FindHotelWebApiResourcerProject
+namespace FindHotelWebApiResourcerProject.EFClasses
 {
-    using System;
-    using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
-
     public partial class ViewGuestListContext : DbContext
     {
         public ViewGuestListContext()
